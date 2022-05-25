@@ -1,0 +1,40 @@
+.container-fluid{
+    background-color: black;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#personalDescription{
+    color: white;
+}
+
+#presentacion{
+    color: #b8860b;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+}
+
+h2{
+    text-align: center;
+}
+
+@media (min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        top: 250px;
+    }
+    #presentacion{
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        left: 220px;
+        top: 310px;
+    }
+    .row2{
+        margin-top: 150px;
+    }
+    }
