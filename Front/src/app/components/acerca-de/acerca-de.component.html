@@ -1,0 +1,19 @@
+<div class="container-fluid" *ngIf="persona">
+    <div class="row" id="personalData">
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <img src="{{persona.foto}}" class="img-fluid" id="fotoPerfil">
+        </div>
+        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10" id="presentacion">
+            <h3>Bienvenidos a mi Portfolio</h3>
+            <h1>{{persona.nombre}} {{persona.apellido}}</h1>
+            <p>{{persona.titulo}}</p>
+        </div>
+    </div>
+    <div class="row2" id="personalDescription">
+        <div class="col-md-12">
+            <h2>Acerca de mi</h2>
+            <p>{{persona.descripcion}}
+            </p>
+        </div>
+    </div>  
+</div>
